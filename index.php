@@ -59,7 +59,7 @@
 <div class="parallax_section2 parallax_image">
   <div class="row">
             <!--MEDIA-->
-        <div class="card border-dark bg-light">
+        <div class="card1 border-dark bg-light">
       
             <h2 id="spec">Media List</h2>
             <table  border="1" cellspacing= "0" cellpadding="0">
@@ -80,7 +80,7 @@
 
                     if($result->num_rows > 0) {
                         while($row = $result->fetch_assoc()) {
-                        echo  "<tr class='style_tr'>
+                        echo  "<tr>
                                 <td><img class='border border-dark' style='width:100px' src=".$row['image']." alt='Card image cap'></td>
                                 <td>" .$row['title']." " .$row['media_type']."</td>
                                 <td>" .$row['description']."</td>

@@ -77,7 +77,7 @@ if ($_GET['id']) {
            </tr>     
            <tr>
                <th>Title</th>
-               <td><input type= "text" name="title"  placeholder="Last Name" value ="<?php echo $data['title'] ?>" /></td >
+               <td><input type= "text" name="title"  placeholder="Title" value ="<?php echo $data['title'] ?>" /></td >
            </tr>
            <tr>
                <th>Publishing Date</th>
